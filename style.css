@@ -1,0 +1,37 @@
+* {
+  background: lightgreen;
+  font-family: 'Dela Gothic One', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#feedback {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+#buttons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%)
+}
+button {
+  background-color: silver;
+}
+#scoreboard {
+  width: 100%;
+  text-align: center;
+}
+
+#scoreboard > div {
+  display: flex;
+  justify-content: center;
+}
+
+#won, #lost {
+  margin: 0 1rem;
+  
+}
+
